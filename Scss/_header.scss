@@ -1,0 +1,25 @@
+/* formato del header */
+
+header{
+    background-image: linear-gradient(to top, #424242, #3b3b3b, #343434, #2d2d2d, #262626, #212121, #1d1d1d, #181818, #141414, #0e0e0e, #080808, #000000) !important;
+    justify-content: center !important;
+}
+
+nav{
+    background-image: linear-gradient(to top, #424242, #3b3b3b, #343434, #2d2d2d, #262626, #212121, #1d1d1d, #181818, #141414, #0e0e0e, #080808, #000000) !important;
+    justify-content: space-between !important;
+}
+
+a img{
+    height: 50px;
+}
+
+@media only screen and (min-width:992px){
+    nav{
+        max-width: 500px !important;
+    }
+
+    #misobras{
+        min-width: 88px!important;
+    }
+}

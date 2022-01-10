@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="Es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descubre el maravilloso mundo del tapiz en telar de la mano de Marisa Taborelli">
+    <meta name="keywords" content="tejido en telar cuadrado ,tejido en telar triangular, tejido en telar bastidor rectangular, tejido en telar de cintura, tapiz artesanal para pared, tapiz en telar">
+    <meta name="copyright" content="Marisa Taborelli">
+
+    <link rel="shortcut icon" href="./media/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./Scss/estilos.css">
+    <title> Marisa Taborelli | Tapicista, psicologa social y profesora </title>
+</head>
+
+<!-- comienzo body -->
+<body>
+    <a href="#top"><img src="./media/flecha-hacia-arriba.png" alt="Ir arriba del sitio" id="flechaArriba"></a> <!--boton para subir al principio de la pagina-->
+
+    <!-- inicio header -->
+    <header class="shadow-lg">
+
+        <nav class="container-sm navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#"><img src="./media/LogoTaborelliBlanco.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="./pages/sobremi.html" id="navbarScrollingDropdown" role="button" data-toggle="dropdown" aria-expanded="false">Sobre Mi</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="./pages/sobremi.html" id="biograf">Biografia</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="/pages/sobremi.html#manualDeTapiz" id="manualTapiz">Manual de Tapiz</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/talleres.html">Talleres</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/obras.html"  id="misobras">Mis Obras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- fin header -->
+
+    <!-- comienzo main -->
+    <main class="container align-content-center principal">
+        <section class="container-sm row d-flex flex-wrap p-3 headline">
+            <h1 class="container-fluid">EL LENGUAJE DE LA TRAMA</h1>
+            <h3 class="container-fluid">Entre urdimbres y tramas.</h3>
+        </section>
+
+        <!-- carousel -->
+
+        <section class="row container-fluid">
+            <div id="carouselExampleCaptions" class="carousel slide carousel-fade carousel-dark" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./media/obra1.jpg" class="d-block w-100" alt="Instrospeccion">
+                    </div>
+                    <div class="carousel-item" id="fondo-azul">
+                        <img src="./media/MapaTucuman.png" class="d-block w-100" alt="mapa de tucuman tejido">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./media/conexionesArmonicas.jpg" class="d-block w-100" alt="conexiones armonicas">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </section>
+
+        <section class="d-flex p-3 row container">
+            <aside class="sidebar-left container align-self-center col-md-8 col-lg-3">
+                <p>"Aquella inquietud por el arte textil se dio cuando vine a vivir al norte de nuestro país. Aquí me llamó la atención la toponimia del lugar (tiene muchas palabras escritas en quechua) y los tapices como forma representativa de una expresión textil arraigada a la cultura"</p>
+            </aside>
+
+            <!--formulario de subscripcion a noticias-->
+                
+            <article class="container col-sm-8 col-md-6 col-lg-4 formPrincipal" > 
+                <h2>Subscribite a nuestras noticias!</h2> 
+                <form action="enviar.php" method="post" enctype="application/x-www-form-urlencoded" class="was-validated">
+                    <div class="form-group">
+                        <label for="name">Nombre:</label>
+                        <input type="text" name="name" class="form-control" placeholder="Escribe tu nombre." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" required class="form-control" placeholder="nombre@mail.com">
+                    </div>
+                    <input type="submit" value="Subscribir" class="btn btn-primary">
+                </form>
+            </article>
+            <aside class="sidebar-right container align-self-center col-md-8 col-lg-3">
+                <p>"Cuando me preguntan cómo me defino, o cuando debo presentarme de acuerdo a la actividad que realizo, comúnmente digo soy ´docente, psicóloga social y artista textil´ Y creo que no es inocente el orden, pues es la forma en que he jerarquizado los roles que simultáneamente llevo a cabo en mi oficio."</p>
+            </aside>
+        </section>
+
+        <!-- algunas entrevistas desde iframes -->
+        
+        <section class="prensa row container">
+            <h2>Entrevistas</h2>
+            <div class="d-flex flex-wrap">
+                <div class="container">
+                    <h3>Entrevista 1</h3>
+                    <iframe src="https://www.youtube.com/embed/l6xLJ1Nkxus" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>Entrevista realizada a Maximo Laura donde se discuten tales temas. Lorem ipsum dolor sit amet algo mas.</p>
+                </div>
+                <div class="container">
+                    <h3>Entrevista 2</h3>
+                    <iframe src="https://www.youtube.com/embed/GwVHX7auy_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi atque odio porro sequi quis quibusdam.</p>
+                </div>
+                <div class="container">
+                    <h3>Entrevista 3</h3>
+                    <iframe src="https://www.youtube.com/embed/pFCTvhTiMhk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi atque odio porro sequi quis quibusdam.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+        
+    <!-- fin main -->
+
+    <!-- comienzo footer -->
+    <footer class="d-flex container-fluid bg-dark text-white align-content-center"> <!--inicio footer-->
+        <div class="d-flex">
+            <ul>
+                <li><a href="./pages/sobremi.html">Sobre Mi</a></li>
+                <li><a href="./pages/talleres.html">Talleres</a></li>
+                <li><a href="./pages/obras.html">Mis Obras</a></li>
+                <li><a href="./pages/contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="d-flex social">
+            <ul>
+                <li><a href="https://www.facebook.com/marisa.taborelli"><img src="./media/facebook.png" alt="Facebook" class="social"></li></a>
+                <li><a href="https://www.instagram.com/marisataborelli/?hl=es"><img src="./media/instagram (1).png" alt="Instagram" class="social"></li></a>
+            </ul>
+        </div>
+        <div class="d-flex">
+            <a href="#"><img src="./media/LogoTaborelliBlanco.png" alt="Logo"></a> 
+        </div>
+    </footer> 
+    <!--fin footer-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

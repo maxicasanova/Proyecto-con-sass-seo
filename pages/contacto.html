@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="Es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Escribe aqui las consultas que quieras realizarle a Marisa. Seran respuestas a la brevedad!">
+    <meta name="keywords" content="tejido en telar cuadrado ,arte textil , como empezar tejido en telar, talleres virtuales, tejido en telar de cintura, tapiz artesanal para pared, tapiz en telar">
+    <title> Marisa Taborelli | Contacta con la autora, escribe tus consultas </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="../media/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../Scss/estilos.css">
+</head>
+<body>
+    <!-- inicio header -->
+    <header class="shadow-lg">
+
+        <nav class="container-sm navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="../index.html"><img src="../media/LogoTaborelliBlanco.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-toggle="dropdown" aria-expanded="false">Sobre Mi</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="./sobremi.html" id="biograf">Biografia</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="/pages/sobremi.html#manualDeTapiz" id="manualTapiz">Manual de Tapiz</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="talleres.html">Talleres</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./obras.html"  id="misobras">Mis Obras</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./contacto.html">Contacto <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- fin header -->
+
+    <main>
+
+    <section class="headline row flex-column align-content-center text-center">
+        <h1>Contactame!</h1>
+        <p>Cualquier informacion requerida, estare para ayudarte. No dudes en enviar un mensaje</p>
+    </section>
+    
+    <!--formulario de contacto-->
+
+    <section class="row justify-content-center" id="sectForm">
+        <div class="formulario col-md-6 col-lg-5 col-xl-3">
+            <form action="enviar.php" method="post" enctype="application/x-www-form-urlencoded" id="contacto" class="was-validated">
+                <div class="form-group">
+                    <label for="name" id="nameForm">Nombre:</label>
+                    <input type="text" name="name" class="form-control" placeholder="Escribe tu nombre." required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" required class="form-control" placeholder="nombre@mail.com">
+                </div>
+                <h2>Como me conociste:</h2>
+                <div class="seleccionPuntos">
+                    <div>
+                        <input type="radio" id="redes" name="razon" value="Redes Sociales">
+                        <label for="redes" class="radio">Redes Sociales</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="talleres" name="razon" value="Talleres">  
+                        <label for="talleres" class="radio">Talleres</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="encuentros" name="razon" value="Encuentros">
+                        <label for="encuentros" class="radio">Encuentros</label>
+                    </div>
+                </div>
+                <h2>Deja tu mensaje</h2>
+                <div id="textarea">
+                    <textarea id="comment" form="contacto" maxlength="200"></textarea>
+                    <input type="submit" value="Enviar" class="btn btn-primary">
+                </div>
+                
+            </form>
+        </div>
+        
+        <!--seccion utilizada para colocar una imagen de fondo-->
+
+        <aside class="col-md-6 col-lg-5 col-xl-3 contacto"> 
+            
+        </aside>
+    </section>
+
+    <section class="row justify-content-center flex-column align-items-center text-center">
+        <h2>Puedes encontrarme en las redes!</h2>
+        <p>No dudes en seguirme en Facebook e Instagram</p>
+    </section>
+    </main>
+    <!-- comienzo footer -->
+
+    <footer class="d-flex container-fluid bg-dark text-white align-content-center">
+        <div class="d-flex">
+            <ul>
+                <li><a href="sobremi.html">Sobre Mi</a></li>
+                <li><a href="talleres.html">Talleres</a></li>
+                <li><a href="obras.html">Mis Obras</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="d-flex social">
+            <ul>
+                <li><a href="https://www.facebook.com/marisa.taborelli"><img src="../media/facebook.png" alt="Facebook" class="social"></li></a>
+                <li><a href="https://www.instagram.com/marisataborelli/?hl=es"><img src="../media/instagram (1).png" alt="Instagram" class="social"></li></a>
+            </ul>
+        </div>
+        <div class="d-flex">
+            <a href="../index.html"><img src="../media/LogoTaborelliBlanco.png" alt="Logo"></a> 
+        </div>
+    </footer> 
+
+    <!--fin footer-->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

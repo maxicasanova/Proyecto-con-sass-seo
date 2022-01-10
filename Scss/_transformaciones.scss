@@ -1,0 +1,26 @@
+/* transformaciones */
+
+a img:hover{
+    transform: scale(1.1);
+}
+
+nav li a:hover{
+    color:rgb(255, 154, 4) !important;
+}
+
+nav li a:active{
+    color:rgb(255, 75, 4) !important;
+}
+
+nav li a#biograf:active, nav li a#manualTapiz:active{
+    background-color: white !important;
+}
+
+footer li a:hover{
+    text-decoration: none !important;
+    color:rgb(255, 154, 4);
+}
+
+::selection {
+    background: rgb(255, 154, 4);
+}

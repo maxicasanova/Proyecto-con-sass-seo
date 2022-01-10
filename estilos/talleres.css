@@ -1,0 +1,188 @@
+.row{
+    margin:0;
+    margin-top: 20px;
+}
+
+::selection {
+    background: rgb(255, 154, 4);
+}
+
+/* formato de la flecha arriba */
+
+#flechaArriba{
+    height: 60px;
+    bottom: 8%;
+    right: 2%;
+    position: fixed;
+    z-index:+1000;
+}
+
+/* formato header */
+
+header{
+    background-image: linear-gradient(to top, #424242, #3b3b3b, #343434, #2d2d2d, #262626, #212121, #1d1d1d, #181818, #141414, #0e0e0e, #080808, #000000) !important;
+    justify-content: center !important;
+}
+
+nav{
+    background-image: linear-gradient(to top, #424242, #3b3b3b, #343434, #2d2d2d, #262626, #212121, #1d1d1d, #181818, #141414, #0e0e0e, #080808, #000000) !important;
+    justify-content: space-between !important;
+}
+
+a img{
+    height: 50px;
+}
+
+/* section sapikuna */
+
+section#sapikuna span{
+    font-weight:900;
+    font-style: italic;
+}
+
+section#sapikuna h2{
+    color: rgba(73, 73, 73, 0.9);
+    font-size:17px;
+}
+
+/* proyectos grupales */
+
+section#proyectosGrupales span{
+    font-weight:900;
+    font-style: italic;
+}
+
+#proyectosGrupales img{
+    border: 2px solid black;
+}
+
+#nuevastec{
+    margin-top:40px;
+}
+
+/* formato section zoom */
+
+section#zoom{
+    margin-bottom: 10px;
+}
+
+#zoom img{
+    border: 2px solid black;
+}
+
+/* formato del footer */
+
+footer{
+    text-align:center;
+    background-image: linear-gradient(to bottom, #424242, #3b3b3b, #343434, #2d2d2d, #262626, #212121, #1d1d1d, #181818, #141414, #0e0e0e, #080808, #000000);
+    border-top: 2px solid rgba(255, 228, 196,0.5);
+    justify-content:center;
+    gap:10px;
+}
+
+footer div.d-flex{
+    flex-direction:column;
+    justify-content:center;
+}
+
+footer div a{
+    text-decoration: none !important;
+    color: rgb(156, 156, 156);
+}
+
+footer ul{
+    list-style-type: none;
+    padding:0;
+    margin-top: 15px !important;
+}
+
+@media only screen and (max-width:576px){
+    #flechaArriba{
+        display:none;
+    }
+
+    a img.social{
+        height: 30px;
+        margin-bottom: 5px;
+    }
+
+    ul{
+        padding: 15px;
+        padding-left: 30px;
+    }
+
+    #sapikuna img{
+        max-width:280px;
+    }
+
+    section img{
+        margin-bottom:15px;
+    }
+
+}
+
+@media only screen and (min-width:576px) and (max-width:992px){
+    
+    /* p{
+        font-size: 14px !important;
+    } */
+
+    a img.social{
+        height: 30px;
+        margin-bottom: 5px;
+    }
+
+    #sapikuna img{
+        max-width:280px;
+    }
+
+    section img{
+        margin-bottom:15px;
+    }
+
+    #proyectosGrupales div p{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width:992px){
+    nav{
+        max-width: 500px !important;
+    }
+
+    #misobras{
+        min-width: 88px!important;
+    }
+
+    a img.social{
+        height: 35px;
+    }
+
+    #sapikuna img{
+        max-width:250px;
+    }
+
+
+    footer div.social{
+        gap:10px;
+    }
+}
+
+/* transformaciones y pseudoclases */
+
+a img:hover{
+    transform: scale(1.1);
+}
+
+nav li a:hover{
+    color:rgb(255, 154, 4) !important;
+}
+
+nav li a:active{
+    color:rgb(255, 75, 4) !important;
+}
+
+footer li a:hover{
+    text-decoration: none !important;
+    color:rgb(255, 154, 4);
+}

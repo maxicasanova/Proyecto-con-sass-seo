@@ -1,0 +1,43 @@
+/* formato del footer*/
+
+footer{
+    text-align:center;
+    background-image: linear-gradient(to bottom, #424242, #3b3b3b, #343434, #2d2d2d, #262626, #212121, #1d1d1d, #181818, #141414, #0e0e0e, #080808, #000000);
+    border-top: 2px solid rgba(255, 228, 196,0.5);
+    justify-content:center;
+    gap:10px;
+
+    & div.d-flex{
+        flex-direction:column;
+        justify-content:center;
+    }
+
+    & div a{
+        text-decoration: none;
+        color: rgb(156, 156, 156);
+    }
+
+    & ul{
+        list-style-type: none;
+        padding:0;
+        margin-top: 15px !important;
+    }
+}
+
+@media only screen and (max-width:576px){
+
+    a img.social{
+        height: 30px;
+    }
+}
+
+@media only screen and (min-width:992px){
+    a img.social{
+        height: 35px;
+    }
+
+
+    footer div.social{
+        gap:10px;
+    }
+}

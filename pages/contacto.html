@@ -101,10 +101,25 @@
         </aside>
     </section>
 
-    <section class="row justify-content-center flex-column align-items-center text-center">
+    <section class="row justify-content-center flex-column align-items-center text-center sectRed">
         <h2>Puedes encontrarme en las redes!</h2>
         <p>No dudes en seguirme en Facebook e Instagram</p>
     </section>
+
+    <!-- el video -->
+
+    <section class="container row flex-nowrap align-items-center sectVid">
+        <video autoplay muted loop id="myVideo">
+            <source src="https://s3-us-west-2.amazonaws.com/converterpoint-22/encodings/3f19e8b7fc07b2261056e6c41f935fbd.mp4" type="video/mp4">
+        </video>
+        <div class="content container">
+            <h1>Y si no me encontras en las redes...</h1>
+            <p>Seguramente es porque voy a estar tejiendo!</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, minima neque ducimus, tempora dicta cupiditate officiis dignissimos libero aspernatur ratione quisquam laboriosam! Voluptatum, cum ipsa est aut amet quisquam suscipit.</p>
+            <button id="myBtn" onclick="myFunction()">Pausar</button>
+        </div>
+    </section>
+
     </main>
     <!-- comienzo footer -->
 
@@ -130,6 +145,25 @@
 
     <!--fin footer-->
 
+    <!-- sccript para pausar video o reanudarlo -->
+    <script>
+        // Get the video
+        var video = document.getElementById("myVideo");
+        
+        // Get the button
+        var btn = document.getElementById("myBtn");
+        
+        // Pause and play the video, and change the button text
+        function myFunction() {
+            if (video.paused) {
+                video.play();
+                btn.innerHTML = "Pausar";
+            } else {
+                video.pause();
+                btn.innerHTML = "Reanudar";
+            }
+        }
+    </script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>

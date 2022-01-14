@@ -320,58 +320,384 @@ aside.contacto {
   border-radius: 30px;
 }
 
+.sectRed {
+  padding: 20px 0;
+}
+
+.sectVid {
+  padding-bottom: 20px;
+}
+
+#myVideo {
+  max-height: 500px;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  padding: 20px;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 150px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
 /*formato obras */
 /* formato area de fotos */
-.img, .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9 {
+main.obras {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), color-stop(#eeeeee), color-stop(#dedede), color-stop(#cdcdcd), to(#bdbdbd));
+  background-image: linear-gradient(to bottom, #ffffff, #eeeeee, #dedede, #cdcdcd, #bdbdbd);
+}
+
+p.introObras {
+  padding: 20px;
+  max-width: 800px;
+}
+
+.img, div.img1, div.img2, div.img3, div.img4, div.img5, div.img6, div.img7, div.img8, div.img9, div.img1:hover, div.img2:hover, div.img3:hover, div.img4:hover, div.img5:hover, div.img6:hover, div.img7:hover, div.img8:hover, div.img9:hover {
   border: 2px solid #333;
   border-radius: 20px;
   background-size: cover;
   background-position: center;
 }
 
-.img1 {
+div.img1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  grid-area: img1;
+}
+
+div.img1 p {
+  font-size: 60%;
+  padding: 5px;
+  padding-top: 0;
+}
+
+div.img1 h4 {
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+div.img2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  grid-area: img2;
+}
+
+div.img2 p {
+  font-size: 60%;
+  padding: 5px;
+  padding-top: 0;
+}
+
+div.img2 h4 {
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+div.img3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  grid-area: img3;
+}
+
+div.img3 p {
+  font-size: 60%;
+  padding: 5px;
+  padding-top: 0;
+}
+
+div.img3 h4 {
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+div.img4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  grid-area: img4;
+}
+
+div.img4 p {
+  font-size: 60%;
+  padding: 5px;
+  padding-top: 0;
+}
+
+div.img4 h4 {
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+div.img5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  grid-area: img5;
+}
+
+div.img5 p {
+  font-size: 60%;
+  padding: 5px;
+  padding-top: 0;
+}
+
+div.img5 h4 {
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+div.img6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  grid-area: img6;
+}
+
+div.img6 p {
+  font-size: 60%;
+  padding: 5px;
+  padding-top: 0;
+}
+
+div.img6 h4 {
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+div.img7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  grid-area: img7;
+}
+
+div.img7 p {
+  font-size: 60%;
+  padding: 5px;
+  padding-top: 0;
+}
+
+div.img7 h4 {
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+div.img8 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  grid-area: img8;
+}
+
+div.img8 p {
+  font-size: 60%;
+  padding: 5px;
+  padding-top: 0;
+}
+
+div.img8 h4 {
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+div.img9 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  grid-area: img9;
+}
+
+div.img9 p {
+  font-size: 60%;
+  padding: 5px;
+  padding-top: 0;
+}
+
+div.img9 h4 {
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+div.img1:hover {
   grid-area: img1;
   background-image: url(../media/img1.jpg);
 }
 
-.img2 {
+div.img1:hover p, div.img1:hover h4 {
+  opacity: 0;
+}
+
+div.img2:hover {
   grid-area: img2;
   background-image: url(../media/img2.jpg);
 }
 
-.img3 {
+div.img2:hover p, div.img2:hover h4 {
+  opacity: 0;
+}
+
+div.img3:hover {
   grid-area: img3;
   background-image: url(../media/img3.jpg);
 }
 
-.img4 {
+div.img3:hover p, div.img3:hover h4 {
+  opacity: 0;
+}
+
+div.img4:hover {
   grid-area: img4;
   background-image: url(../media/img4.jpg);
 }
 
-.img5 {
+div.img4:hover p, div.img4:hover h4 {
+  opacity: 0;
+}
+
+div.img5:hover {
   grid-area: img5;
   background-image: url(../media/img5.jpg);
 }
 
-.img6 {
+div.img5:hover p, div.img5:hover h4 {
+  opacity: 0;
+}
+
+div.img6:hover {
   grid-area: img6;
   background-image: url(../media/img6.jpg);
 }
 
-.img7 {
+div.img6:hover p, div.img6:hover h4 {
+  opacity: 0;
+}
+
+div.img7:hover {
   grid-area: img7;
   background-image: url(../media/img7.jpg);
 }
 
-.img8 {
+div.img7:hover p, div.img7:hover h4 {
+  opacity: 0;
+}
+
+div.img8:hover {
   grid-area: img8;
   background-image: url(../media/img8.jpg);
 }
 
-.img9 {
+div.img8:hover p, div.img8:hover h4 {
+  opacity: 0;
+}
+
+div.img9:hover {
   grid-area: img9;
   background-image: url(../media/img9.jpg);
+}
+
+div.img9:hover p, div.img9:hover h4 {
+  opacity: 0;
 }
 
 section#galeriaFotos {
@@ -384,6 +710,14 @@ section#galeriaFotos span {
       -ms-grid-row-align: center;
       align-self: center;
   background-color: rgba(0, 0, 0, 0.7);
+}
+
+section#galeriaFotos div div.texto {
+  z-index: 1;
+}
+
+section#galeriaFotos div:hover {
+  opacity: 1;
 }
 
 /* formato talleres */
@@ -499,16 +833,25 @@ section#zoom img {
     width: 90%;
   }
   .img1 {
-    background-position: left;
+    background-position: left !important;
+  }
+  .img3 h4, .img8 h4, .img4 h4, .img5 h4 {
+    font-size: 12px !important;
   }
   .img7 {
-    background-position: right;
+    background-position: right !important;
+  }
+  .img7 h4 {
+    font-size: 14px !important;
   }
   ol li {
     font-size: 10px;
   }
   #sapikuna img {
     max-width: 280px;
+  }
+  #myVideo, #myBtn {
+    display: none;
   }
 }
 
@@ -536,6 +879,18 @@ section#zoom img {
         grid-template-rows: 100px 100px 100px 100px 100px;
     gap: 20px;
   }
+  .img3 h4, .img4 h4, .img5 h4 {
+    font-size: 10px !important;
+  }
+  .img3 p, .img4 p, .img5 p {
+    font-size: 7px !important;
+  }
+  .img8 h4, .img9 h4 {
+    font-size: 13px !important;
+  }
+  .img8 p, .img9 p {
+    font-size: 9px !important;
+  }
   #sapikuna img {
     max-width: 280px;
   }
@@ -549,7 +904,7 @@ section#zoom img {
         flex-wrap: nowrap;
   }
   section#sectForm h2 {
-    font-size: 26px;
+    font-size: 24px;
   }
   aside.contacto {
     min-height: 300px !important;
@@ -598,12 +953,21 @@ section#zoom img {
         grid-template-rows: 100px 100px 100px 100px 100px;
     gap: 20px;
   }
+  .img3 h4, .img4 h4, .img5 h4, .img8 h4 {
+    font-size: 14px !important;
+  }
+  .img3 p, .img4 p, .img5 p, .img8 p {
+    font-size: 8px !important;
+  }
   #sapikuna img {
     max-width: 250px;
   }
+  section#sectForm h2 {
+    font-size: 24px;
+  }
 }
 
-@media only screen and (min-width: 2560px) {
+@media only screen and (min-width: 1900px) {
   main {
     min-height: 1400px;
   }
@@ -620,8 +984,59 @@ section#zoom img {
         grid-template-rows: 200px 200px 200px 200px 200px;
     gap: 20px;
   }
-  section#sectForm {
-    min-height: 700px;
+  div.img1 h4 {
+    font-size: 30px !important;
+  }
+  div.img1 p {
+    font-size: 18px !important;
+  }
+  div.img2 h4 {
+    font-size: 30px !important;
+  }
+  div.img2 p {
+    font-size: 18px !important;
+  }
+  div.img3 h4 {
+    font-size: 30px !important;
+  }
+  div.img3 p {
+    font-size: 18px !important;
+  }
+  div.img4 h4 {
+    font-size: 30px !important;
+  }
+  div.img4 p {
+    font-size: 18px !important;
+  }
+  div.img5 h4 {
+    font-size: 30px !important;
+  }
+  div.img5 p {
+    font-size: 18px !important;
+  }
+  div.img6 h4 {
+    font-size: 30px !important;
+  }
+  div.img6 p {
+    font-size: 18px !important;
+  }
+  div.img7 h4 {
+    font-size: 30px !important;
+  }
+  div.img7 p {
+    font-size: 18px !important;
+  }
+  div.img8 h4 {
+    font-size: 30px !important;
+  }
+  div.img8 p {
+    font-size: 18px !important;
+  }
+  div.img9 h4 {
+    font-size: 30px !important;
+  }
+  div.img9 p {
+    font-size: 18px !important;
   }
 }
 /*# sourceMappingURL=estilos.css.map */

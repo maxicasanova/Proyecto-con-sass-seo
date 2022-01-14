@@ -622,6 +622,14 @@ div.img9 h4 {
 div.img1:hover {
   grid-area: img1;
   background-image: url(../media/img1.jpg);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition: 2s;
+  transition: 2s;
 }
 
 div.img1:hover p, div.img1:hover h4 {
@@ -631,6 +639,14 @@ div.img1:hover p, div.img1:hover h4 {
 div.img2:hover {
   grid-area: img2;
   background-image: url(../media/img2.jpg);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition: 2s;
+  transition: 2s;
 }
 
 div.img2:hover p, div.img2:hover h4 {
@@ -640,6 +656,14 @@ div.img2:hover p, div.img2:hover h4 {
 div.img3:hover {
   grid-area: img3;
   background-image: url(../media/img3.jpg);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition: 2s;
+  transition: 2s;
 }
 
 div.img3:hover p, div.img3:hover h4 {
@@ -649,6 +673,14 @@ div.img3:hover p, div.img3:hover h4 {
 div.img4:hover {
   grid-area: img4;
   background-image: url(../media/img4.jpg);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition: 2s;
+  transition: 2s;
 }
 
 div.img4:hover p, div.img4:hover h4 {
@@ -658,6 +690,14 @@ div.img4:hover p, div.img4:hover h4 {
 div.img5:hover {
   grid-area: img5;
   background-image: url(../media/img5.jpg);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition: 2s;
+  transition: 2s;
 }
 
 div.img5:hover p, div.img5:hover h4 {
@@ -667,6 +707,14 @@ div.img5:hover p, div.img5:hover h4 {
 div.img6:hover {
   grid-area: img6;
   background-image: url(../media/img6.jpg);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition: 2s;
+  transition: 2s;
 }
 
 div.img6:hover p, div.img6:hover h4 {
@@ -676,6 +724,14 @@ div.img6:hover p, div.img6:hover h4 {
 div.img7:hover {
   grid-area: img7;
   background-image: url(../media/img7.jpg);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition: 2s;
+  transition: 2s;
 }
 
 div.img7:hover p, div.img7:hover h4 {
@@ -685,6 +741,14 @@ div.img7:hover p, div.img7:hover h4 {
 div.img8:hover {
   grid-area: img8;
   background-image: url(../media/img8.jpg);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition: 2s;
+  transition: 2s;
 }
 
 div.img8:hover p, div.img8:hover h4 {
@@ -694,6 +758,14 @@ div.img8:hover p, div.img8:hover h4 {
 div.img9:hover {
   grid-area: img9;
   background-image: url(../media/img9.jpg);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition: 2s;
+  transition: 2s;
 }
 
 div.img9:hover p, div.img9:hover h4 {

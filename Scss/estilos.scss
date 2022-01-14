@@ -325,6 +325,9 @@ p.introObras{
     div.img#{$i}:hover{
         grid-area: img#{$i};
         background-image: url(../media/img#{$i}.jpg);
+        transform: scale(1.05);
+        transition-property: transform;
+        transition: 2s;
         @extend .img;
         & p,h4{
             opacity: 0;

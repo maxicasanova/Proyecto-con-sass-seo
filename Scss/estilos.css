@@ -112,7 +112,7 @@ html {
 }
 
 .row {
-  margin: 0;
+  margin: auto;
   margin-top: 20px;
 }
 
@@ -128,6 +128,8 @@ html {
 /* formato del main */
 main.principal {
   text-align: center;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#ffffff), color-stop(#fbfbfb), color-stop(#f8f8f8), color-stop(#f4f4f4), color-stop(#f1f1f1), color-stop(#f1f1f1), color-stop(#f1f1f1), color-stop(#f1f1f1), color-stop(#f4f4f4), color-stop(#f8f8f8), color-stop(#fbfbfb), to(#ffffff));
+  background-image: linear-gradient(to top, #ffffff, #fbfbfb, #f8f8f8, #f4f4f4, #f1f1f1, #f1f1f1, #f1f1f1, #f1f1f1, #f4f4f4, #f8f8f8, #fbfbfb, #ffffff);
 }
 
 /* formato del headline */
@@ -138,10 +140,10 @@ main.principal {
 }
 
 .headline h3 {
-  text-align: right;
   font-style: italic;
   color: rgba(0, 0, 0, 0.7);
   font-size: 20px;
+  margin-top: 20px;
 }
 
 /* formato imagen principal */
@@ -174,7 +176,7 @@ article.formPrincipal {
   background-color: rgba(255, 228, 196, 0.5);
   border-top: 1px solid #8f6900;
   border-bottom: 2px solid #8f6900;
-  margin-bottom: 20px;
+  margin: 80px auto;
 }
 
 article.formPrincipal h2 {
@@ -194,26 +196,59 @@ article.formPrincipal input[type=submit]:hover {
   background: rgba(255, 154, 4, 0.81) !important;
 }
 
+aside p {
+  font-size: 18px;
+}
+
+aside p span {
+  font-weight: 900;
+  font-size: 28px;
+}
+
+/* section citas */
+.citas {
+  text-align: center;
+}
+
+.citas h1 {
+  padding-bottom: 30px;
+  text-align: center;
+  color: #b86e00;
+}
+
+.citas div {
+  max-width: 300px;
+}
+
+.citas div p {
+  padding: 20px;
+}
+
 /* section prensa */
 .prensa {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.prensa h2 {
-  text-align: center !important;
-  font-size: 26px;
+  gap: 20px;
+  margin: 20px 0;
+  padding-bottom: 20px;
 }
 
 .prensa h3 {
   font-style: italic;
   color: rgba(0, 0, 0, 0.7);
   font-size: 20px;
+  padding: 10px;
 }
 
-.prensa div.container {
-  max-width: 360px;
+.prensa div.tarjetas {
+  gap: 30px;
+}
+
+.prensa div.tarjetas .card {
+  border-radius: 20px;
+  -webkit-box-shadow: 10px 10px 5px #aaaaaa;
+          box-shadow: 10px 10px 5px #aaaaaa;
 }
 
 /* formato sobremi */

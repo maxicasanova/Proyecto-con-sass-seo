@@ -20,7 +20,7 @@
     <a href="#top"><img src="./media/flecha-hacia-arriba.png" alt="Ir arriba del sitio" id="flechaArriba"></a> <!--boton para subir al principio de la pagina-->
 
     <!-- inicio header -->
-    <header class="shadow-lg">
+    <header>
 
         <nav class="container-sm navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="#"><img src="./media/LogoTaborelliBlanco.png" alt="logo"></a>
@@ -58,15 +58,16 @@
     <!-- fin header -->
 
     <!-- comienzo main -->
-    <main class="container align-content-center principal">
+    <main class="container-fluid principal">
+
         <section class="container-sm row d-flex flex-wrap p-3 headline">
             <h1 class="container-fluid">EL LENGUAJE DE LA TRAMA</h1>
-            <h3 class="container-fluid">Entre urdimbres y tramas.</h3>
+            <h3 class="container-fluid">"Yo encontre mi voz en el textil, y apunto en mis ensenanzas ayudar al despertar de otras voces..."</h3>
         </section>
 
         <!-- carousel -->
 
-        <section class="row container-fluid">
+        <section class="row imagen-principal">
             <div id="carouselExampleCaptions" class="carousel slide carousel-fade carousel-dark" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -93,9 +94,11 @@
             </div>
         </section>
 
+        <!-- section de noticias -->
+
         <section class="d-flex p-3 row container">
             <aside class="sidebar-left container align-self-center col-md-8 col-lg-3">
-                <p>"Aquella inquietud por el arte textil se dio cuando vine a vivir al norte de nuestro país. Aquí me llamó la atención la toponimia del lugar (tiene muchas palabras escritas en quechua) y los tapices como forma representativa de una expresión textil arraigada a la cultura"</p>
+                <p><span>En</span> este mundo tan <span>vertiginoso</span>, tan cambiante, donde seguir el <span>ritmo</span>  puede ser dificultoso</p>
             </aside>
 
             <!--formulario de subscripcion a noticias-->
@@ -115,29 +118,59 @@
                 </form>
             </article>
             <aside class="sidebar-right container align-self-center col-md-8 col-lg-3">
-                <p>"Cuando me preguntan cómo me defino, o cuando debo presentarme de acuerdo a la actividad que realizo, comúnmente digo soy ´docente, psicóloga social y artista textil´ Y creo que no es inocente el orden, pues es la forma en que he jerarquizado los roles que simultáneamente llevo a cabo en mi oficio."</p>
+                <p><span>Para</span> que no se te escape nada y <span>mantenernos en contacto</span> y un poco mas cerca <span>con</span> esta nueva <span>"normalidad"</span></p>
             </aside>
         </section>
 
+        <!-- algunas frases de la autora -->
+
+        
+        
+        <section class="citas jumbotron">
+
+            <h1>Conociendo a Marisa</h1>
+
+            <article class="row align-items-center container">
+                <div class="container-sm">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" viewBox="0 0 24 24"><path d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z"/></svg>
+                    <p>En toda obra se encuentra implícito una intención...un mensaje… que se codifica a través de tramas y texturas...y se decodifica cuando toca el alma de quien lo observa...</p>
+                </div>
+                <div class="container-sm">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" viewBox="0 0 24 24"><path d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z"/></svg>
+                    <p>Cuando me preguntan cómo me defino, o cuando debo presentarme de acuerdo a la actividad que realizo, comúnmente digo soy "docente, psicóloga social y artista textil" Y creo que no es inocente el orden, pues es la forma en que he jerarquizado los roles que simultáneamente llevo a cabo en mi oficio.</p>
+                </div>
+                <div class="container-sm">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" viewBox="0 0 24 24"><path d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z"/></svg>
+                    <p>Aquella inquietud por el arte textil se dio cuando vine a vivir al norte de nuestro país. Aquí me llamó la atención la toponimia del lugar (tiene muchas palabras escritas en quechua) y los tapices como forma representativa de una expresión textil arraigada a la cultura</p>
+                </div>
+            </article>
+        </section>
         <!-- algunas entrevistas desde iframes -->
         
-        <section class="prensa row container">
-            <h2>Entrevistas</h2>
-            <div class="d-flex flex-wrap">
-                <div class="container">
+        <section class="prensa row">
+            <h2 class="container-fluid">Entrevistas</h2>
+            <p class="container-fluid">Porque no hay mejor forma para conocerla que a traves de algunos videos.</p>
+            <div class="d-flex flex-wrap align-items-center justify-content-around tarjetas">
+                <div class="card" style="width: 18rem;">
                     <h3>Entrevista 1</h3>
-                    <iframe src="https://www.youtube.com/embed/l6xLJ1Nkxus" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <p>Entrevista realizada a Maximo Laura donde se discuten tales temas. Lorem ipsum dolor sit amet algo mas.</p>
+                    <iframe src="https://www.youtube.com/embed/l6xLJ1Nkxus" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="card-img-top"></iframe>
+                    <div class="card-body">
+                        <p class="card-text">Entrevista realizada a Maximo Laura donde se discuten tales temas. Lorem ipsum dolor sit amet algo mas.</p>
+                    </div>
                 </div>
-                <div class="container">
+                <div class="card" style="width: 18rem;">
                     <h3>Entrevista 2</h3>
-                    <iframe src="https://www.youtube.com/embed/GwVHX7auy_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi atque odio porro sequi quis quibusdam.</p>
+                    <iframe src="https://www.youtube.com/embed/GwVHX7auy_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="card-img-top"></iframe>
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi atque odio porro sequi quis quibusdam.</p>
+                    </div>
                 </div>
-                <div class="container">
+                <div class="card" style="width: 18rem;">
                     <h3>Entrevista 3</h3>
-                    <iframe src="https://www.youtube.com/embed/pFCTvhTiMhk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi atque odio porro sequi quis quibusdam.</p>
+                    <iframe src="https://www.youtube.com/embed/pFCTvhTiMhk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="card-img-top"></iframe>
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi atque odio porro sequi quis quibusdam.</p>
+                    </div>
                 </div>
             </div>
         </section>
